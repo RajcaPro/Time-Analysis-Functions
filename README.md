@@ -99,7 +99,24 @@ Mowa o PREVIOUSYEAR, PREVIOUSQUARTER itd, oraz NEXTYEAR,NEXTQUARTER itd.
 różnica pomiędzy nimi jest widoczna na powyższym zdjęciu.
 Miara  parallelperoid zwraca wartość dla grudnia 2007 zarówno dla całego roku 2008, jak i pierwszego kwartału 2008, podczas gdy PREVIOUSMONTH zawsze zwraca wyniki dla tej samej liczby wybranych miesięcy.
 
+Ostatnim punktem tego wpisu będzie OBLICZANIE RÓŻNIC WZGLĘDEM WCZEŚNIEJSZYCH OKRESÓW.
+Jeśli chcesz aby twój raport był uznawany za samo "mięso" musisz to wiedzieć! 📊✨
 
+Do operacji typu MUST HAVE możemy zaliczyć znalezienie zmiany pomiędzy bieżącą wartości danej miary a jej wartości w roku poprzednim. Zmiany można zaprezentować jako różnicę albo wynik procentowy.
+
+Różnica pomiędzy bieżącą wartością sprzedaży a wynikiem dla analogicznego okresu roku poprzedniego jest prostym odejmowaniem. Patrz poniżej :
+
+![image](https://github.com/user-attachments/assets/1992c280-595e-442f-b1b8-725c094c0a28)
+
+![image](https://github.com/user-attachments/assets/fefc01a5-db01-4b39-bac3-27196b8212a7)
+
+![image](https://github.com/user-attachments/assets/df8a5150-1a23-46b7-90d7-5d8dec8dfee2)
+
+a teraz zaprezentujmy zmianę procentową.
+
+![image](https://github.com/user-attachments/assets/1ef2ab67-7c39-42a3-ade4-67faac9eb042)
+
+![image](https://github.com/user-attachments/assets/bf56a7ab-ed30-49bb-9d01-2d324913292b)
 
 
 
