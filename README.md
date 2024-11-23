@@ -65,6 +65,44 @@ Użytkownicy końcowi raportu często potrzebują porównać zagregowane wartoś
 
 Język DAX udostępnia zaawansowaną funkcję realizującą to zadanie :
 
+![image](https://github.com/user-attachments/assets/0bf018da-6332-4c28-be64-d3c205e1b206)
+
+![image](https://github.com/user-attachments/assets/238c4cb4-b5e1-49dc-9966-fde67261a60a)
+
+SAMEPEROIDLASTYEAR zwraca zbiór dat odpowiadający aktualnie wybranemu, przesuniętemu o jeden krok wstecz.
+Jest to specjalizowana wersja ogólnej funkcji DATEADD. Możemy więc zdefiniować tę samą miarę PY sales przy użyciu poniższego kodu :
+
+![image](https://github.com/user-attachments/assets/c3dc1f26-b9ab-45f3-b52e-dd1fab8daae3)
+
+![image](https://github.com/user-attachments/assets/c7a0b6f2-d555-466e-920c-c1ac9ae00816)
+
+W analogiczny sposób można obliczyć wartości dla poprzedniego kwartału PQ, miesiąca PM oraz dnia PD.
+
+![image](https://github.com/user-attachments/assets/7ece5e13-d940-416d-8a4d-a84bac910879)
+
+Zdarza się tak, że chcemy znaleźć całkowitą wartość miary dla poprzedniego roku. Z pomocą przychodzi PARALLELPEROID, który zwraca PEŁNY przedział wskazany przez trzeci parametr, zamiast częsciowego zwracanego przez DATEADD.
+
+![image](https://github.com/user-attachments/assets/ebdabf6b-dbd8-4862-b6ac-96cecac22e6b)
+
+![image](https://github.com/user-attachments/assets/3d3712a7-7aef-4c34-bac6-51de9a5ee29c)
+
+W analogiczny sposób można obliczyć PQ, PM, PD.
+
+![image](https://github.com/user-attachments/assets/c6d09215-7408-420c-bece-4807dce808e3)
+
+
+Istnieją również funkcje podobne do PARALLELPEROID, które NIE SĄ IDENTYCZNE. 
+Mowa o PREVIOUSYEAR, PREVIOUSQUARTER itd, oraz NEXTYEAR,NEXTQUARTER itd.
+
+![image](https://github.com/user-attachments/assets/baecb1d9-ba82-4320-ab47-54b624d0f906)
+
+różnica pomiędzy nimi jest widoczna na powyższym zdjęciu.
+Miara  parallelperoid zwraca wartość dla grudnia 2007 zarówno dla całego roku 2008, jak i pierwszego kwartału 2008, podczas gdy PREVIOUSMONTH zawsze zwraca wyniki dla tej samej liczby wybranych miesięcy.
+
+
+
+
+
 
 
 
