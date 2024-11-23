@@ -119,7 +119,13 @@ a teraz zaprezentujmy zmianę procentową.
 ![image](https://github.com/user-attachments/assets/bf56a7ab-ed30-49bb-9d01-2d324913292b)
 
 
+As you can see, we are gradually raising our bar on data visualization ✨🚀 I hope you enjoyed it: )
 
+That's all in this article !
+
+I hope you will use this technique and show it off at work : )
+
+Greetings, Mateusz Rajca
 
 
 
